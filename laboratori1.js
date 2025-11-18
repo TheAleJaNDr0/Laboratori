@@ -73,7 +73,12 @@ for (let i = 0; i < estudiants.length; i++) {
 }
 
 // 10
+let x = 2;
 
+while (x <= 20) {
+    console.log(x);
+    x += 2;
+}
 
 // 11
 
