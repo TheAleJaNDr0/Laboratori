@@ -136,7 +136,12 @@ let llistaNumeros = [2, 22, 8, 15, 18, 30];
 console.log("Nombre de nombres parells:", comptarParells(llistaNumeros));
 
 // 14
+console.log("Ejercicio 14:");
+function inverteixText(text) {
+    return text.split("").reverse().join("");
+}
 
+console.log(inverteixText("Hola Món!"));
 
 // 15
 
