@@ -1,9 +1,11 @@
 console.log("Hola, món!");
 
 // 4
+console.log("Ejercicio 4:");
+
 let numero = 12;
 let text = "Hola";
-const ciutat = "Barcelona";
+const ciutat = "Palma";
 let boolea = true;
 
 let concatenacio = text + " món! Visc a " + ciutat;
@@ -14,6 +16,8 @@ console.log(concatenacio);
 console.log(interpolacio);
 
 //5
+console.log("Ejercicio 5:");
+
 let nom = "Alejandro";
 let edat = 19;
 let estudiant = true;
@@ -27,6 +31,8 @@ console.log("Valor nul:", valorNul);
 console.log(`El meu nom es ${nom}, tinc ${edat} anys i és ${estudiant} que estic estudiant.`);
 
 // 6
+console.log("Ejercicio 6:");
+
 let a = 15;
 let b = 4;
 
@@ -50,6 +56,8 @@ console.log("a < b:", a < b);
 console.log("a > b:", a > b);
 
 // 7
+console.log("Ejercicio 7:");
+
 let numeroSet = -7;
 
 if (numeroSet > 0) {
@@ -61,11 +69,15 @@ if (numeroSet > 0) {
 }
 
 // 8 
+console.log("Ejercicio 8:");
+
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
 // 9
+console.log("Ejercicio 9:");
+
 let estudiants = ["Alejandro", "Joan", "Lucas", "Pere"];
 
 for (let i = 0; i < estudiants.length; i++) {
@@ -73,6 +85,8 @@ for (let i = 0; i < estudiants.length; i++) {
 }
 
 // 10
+console.log("Ejercicio 10:");
+
 let x = 2;
 
 while (x <= 20) {
@@ -81,7 +95,15 @@ while (x <= 20) {
 }
 
 // 11
+console.log("Ejercicio 11:");
 
+function suma11(a, b) {
+    return a + b;
+}
+
+console.log(suma11(8, 3));   
+console.log(suma11(-10, 25)); 
+console.log(suma11(4, 55));
 
 // 12
 
