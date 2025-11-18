@@ -66,7 +66,11 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // 9
+let estudiants = ["Alejandro", "Joan", "Lucas", "Pere"];
 
+for (let i = 0; i < estudiants.length; i++) {
+    console.log(estudiants[i]);
+}
 
 // 10
 
