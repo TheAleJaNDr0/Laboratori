@@ -119,8 +119,21 @@ function nombreMesGran(array) {
 
 let numeros12 = [4, 2, 55, 20, 23];
 console.log("El nombre més gran és:", nombreMesGran(numeros12));
-// 13
 
+// 13
+console.log("Ejercicio 13:");
+function comptarParells(array) {
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            count++;
+        }
+    }
+    return count;
+}
+
+let llistaNumeros = [2, 22, 8, 15, 18, 30];
+console.log("Nombre de nombres parells:", comptarParells(llistaNumeros));
 
 // 14
 
