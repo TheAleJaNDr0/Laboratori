@@ -144,7 +144,19 @@ function inverteixText(text) {
 console.log(inverteixText("Hola Món!"));
 
 // 15
+console.log("Ejercicio 15:");
 
+function esPrimer(n) {
+    if (n < 2) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+
+console.log("El numero 2 es primer?", esPrimer(2));
+console.log("El numero 26 es primer?", esPrimer(26));
+console.log("El numero 37 es primer?", esPrimer(37));
 
 // 16
 
