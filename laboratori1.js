@@ -107,6 +107,7 @@ console.log(suma11(4, 55));
 
 // 12
 console.log("Ejercicio 12:");
+
 function nombreMesGran(array) {
     let max = array[0];
     for (let i = 1; i < array.length; i++) {
@@ -122,6 +123,7 @@ console.log("El nombre més gran és:", nombreMesGran(numeros12));
 
 // 13
 console.log("Ejercicio 13:");
+
 function comptarParells(array) {
     let count = 0;
     for (let i = 0; i < array.length; i++) {
@@ -137,6 +139,7 @@ console.log("Nombre de nombres parells:", comptarParells(llistaNumeros));
 
 // 14
 console.log("Ejercicio 14:");
+
 function inverteixText(text) {
     return text.split("").reverse().join("");
 }
@@ -159,4 +162,16 @@ console.log("El numero 26 es primer?", esPrimer(26));
 console.log("El numero 37 es primer?", esPrimer(37));
 
 // 16
+console.log("Ejercicio 16:");
 
+function filtraParells(array) {
+    let parells = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            parells.push(array[i]);  
+        }
+    }
+    return parells;
+}
+let numeros16 = [1, 2, 3, 4, 5, 6];
+console.log(filtraParells(numeros16));
