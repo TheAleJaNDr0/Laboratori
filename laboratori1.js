@@ -48,22 +48,41 @@ console.log("a != b:", a != b);
 console.log("a !== b:", a !== b);
 console.log("a < b:", a < b);
 console.log("a > b:", a > b);
+
 // 7
+let numeroSet = -7;
+
+if (numeroSet > 0) {
+    console.log("El número és positiu");
+} else if (numeroSet < 0) {
+    console.log("El número és negatiu");
+} else {
+    console.log("El número és zero");
+}
 
 // 8 
 
+
 // 9
+
 
 // 10
 
+
 // 11
+
 
 // 12
 
+
 // 13
+
 
 // 14
 
+
 // 15
 
+
 // 16
+
