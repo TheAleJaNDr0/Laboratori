@@ -106,8 +106,19 @@ console.log(suma11(-10, 25));
 console.log(suma11(4, 55));
 
 // 12
+console.log("Ejercicio 12:");
+function nombreMesGran(array) {
+    let max = array[0];
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] > max) {
+            max = array[i];
+        }
+    }
+    return max;
+}
 
-
+let numeros12 = [4, 2, 55, 20, 23];
+console.log("El nombre més gran és:", nombreMesGran(numeros12));
 // 13
 
 
